@@ -1,0 +1,57 @@
+nav, h1, h2, h4, h5, h3, p {
+    font-family: "Jua", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(89, 89, 89);
+  }
+
+
+
+  body {background-color: rgb(255, 249, 217); color: dimgray;}
+
+/* 네비게이션 영역 */
+.nav-link:hover,
+.nav-link.active {
+    color: #9bcbff !important;
+}
+.dropdown-menu {
+  color: rgb(89, 89, 89);
+  background-color: rgb(254, 253, 245);
+  opacity: 0.7;
+  backdrop-filter: blur(20px);
+
+}
+
+/* 헤더 영역 */
+header {
+  background-image: linear-gradient(to bottom, rgb(255, 249, 217), rgba(0, 0, 0, 0.2)), url(output_2763083040\ \(3\).jpeg);
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+/* 섹션2 */
+#about-us {
+  background-color: rgb(254, 253, 245);}
+
+.card-hover {transition: transform 0.5s ease;}
+.card-hover:hover {
+  transform: translateY(-20px);}
+
+
+
+
+
+/* 섹션3 */
+#how-to-use {
+  background-color: #bcdcff;}
+
+  .box {
+    transition: transform 0.5s ease;
+  }
+  
+  .box:hover {
+    transform: translateY(-20px);
+  }
+
+
